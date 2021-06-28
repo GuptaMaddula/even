@@ -1,0 +1,19 @@
+import java.util.*;
+class even
+{
+public static void main(String args[])
+{
+int a,b,i;
+Scanner sc=new Scanner(System.in);
+System.out.print("enter a value:");
+a=sc.nextInt();
+System.out.print("enter b value:");
+b=sc.nextInt();
+for(i=a;i>=b;i--)
+{
+if(i%2==0)
+System.out.print(i+"  ");
+}
+}
+}
+
